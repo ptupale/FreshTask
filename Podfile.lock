@@ -1,0 +1,17 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout (0.9.5):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.5)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.5)
+  - ZWSlideViewController (0.1.4)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout (~> 0.9.2)
+  - ZWSlideViewController
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 775ff73f48cfc13859b62d8bceb96e772e4a0318
+  ZWSlideViewController: 2ea9d3286953d51838965878612b7602f3e325e3
+
+PODFILE CHECKSUM: d47ac2b4f91035ceed1c8dcaf6f459cb5ff1f783
+
+COCOAPODS: 1.2.0

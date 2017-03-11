@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1F5EB235208C674EB4639B /* libPods-FreshTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A4BD9CF86A586B2DE5E6C8 /* libPods-FreshTask.a */; };
+		B1195B851E7401E6006DD4E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195B841E7401E6006DD4E4 /* main.m */; };
+		B1195B881E7401E6006DD4E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195B871E7401E6006DD4E4 /* AppDelegate.m */; };
+		B1195B8B1E7401E6006DD4E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195B8A1E7401E6006DD4E4 /* ViewController.m */; };
+		B1195B8E1E7401E6006DD4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1195B8C1E7401E6006DD4E4 /* Main.storyboard */; };
+		B1195B911E7401E6006DD4E4 /* FreshTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1195B8F1E7401E6006DD4E4 /* FreshTask.xcdatamodeld */; };
+		B1195B931E7401E6006DD4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1195B921E7401E6006DD4E4 /* Assets.xcassets */; };
+		B1195B961E7401E6006DD4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1195B941E7401E6006DD4E4 /* LaunchScreen.storyboard */; };
+		B1195B9F1E7402B5006DD4E4 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195B9E1E7402B5006DD4E4 /* PageViewController.m */; };
+		B1195BA21E7402CB006DD4E4 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195BA11E7402CB006DD4E4 /* MapController.m */; };
+		B1195BA51E7404CD006DD4E4 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195BA41E7404CD006DD4E4 /* CollectionViewCell.m */; };
+		B1195BA81E740D59006DD4E4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1195BA71E740D59006DD4E4 /* MapKit.framework */; };
+		B1195BAA1E740D62006DD4E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1195BA91E740D62006DD4E4 /* CoreLocation.framework */; };
+		B1195BBC1E7416DE006DD4E4 /* 15_feed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB41E7416DE006DD4E4 /* 15_feed.jpg */; };
+		B1195BBD1E7416DE006DD4E4 /* 60304a7474819f214d8627676c38169e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB51E7416DE006DD4E4 /* 60304a7474819f214d8627676c38169e.jpg */; };
+		B1195BBE1E7416DE006DD4E4 /* 3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB61E7416DE006DD4E4 /* 3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg */; };
+		B1195BBF1E7416DE006DD4E4 /* av.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB71E7416DE006DD4E4 /* av.png */; };
+		B1195BC01E7416DE006DD4E4 /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB81E7416DE006DD4E4 /* Default.jpg */; };
+		B1195BC11E7416DE006DD4E4 /* emptyGlass copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BB91E7416DE006DD4E4 /* emptyGlass copy.png */; };
+		B1195BC21E7416DE006DD4E4 /* fullGlass copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BBA1E7416DE006DD4E4 /* fullGlass copy.png */; };
+		B1195BC31E7416DE006DD4E4 /* images 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BBB1E7416DE006DD4E4 /* images 2.png */; };
+		B1195BC71E741DAE006DD4E4 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BC41E741DAE006DD4E4 /* map.png */; };
+		B1195BC81E741DAE006DD4E4 /* media.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BC51E741DAE006DD4E4 /* media.png */; };
+		B1195BC91E741DAE006DD4E4 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = B1195BC61E741DAE006DD4E4 /* news.png */; };
+		B1195BCC1E74209D006DD4E4 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1195BCB1E74209D006DD4E4 /* DetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CBA7508C775CA419ABBABD8 /* Pods-FreshTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshTask/Pods-FreshTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A4BD9CF86A586B2DE5E6C8 /* libPods-FreshTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreshTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1195B801E7401E6006DD4E4 /* FreshTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1195B841E7401E6006DD4E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1195B861E7401E6006DD4E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1195B871E7401E6006DD4E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1195B891E7401E6006DD4E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1195B8A1E7401E6006DD4E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1195B8D1E7401E6006DD4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1195B901E7401E6006DD4E4 /* FreshTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshTask.xcdatamodel; sourceTree = "<group>"; };
+		B1195B921E7401E6006DD4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1195B951E7401E6006DD4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1195B971E7401E6006DD4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1195B9D1E7402B5006DD4E4 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		B1195B9E1E7402B5006DD4E4 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		B1195BA01E7402CB006DD4E4 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		B1195BA11E7402CB006DD4E4 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		B1195BA31E7404CD006DD4E4 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		B1195BA41E7404CD006DD4E4 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		B1195BA71E740D59006DD4E4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1195BA91E740D62006DD4E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1195BB41E7416DE006DD4E4 /* 15_feed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 15_feed.jpg; path = ../15_feed.jpg; sourceTree = "<group>"; };
+		B1195BB51E7416DE006DD4E4 /* 60304a7474819f214d8627676c38169e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 60304a7474819f214d8627676c38169e.jpg; path = ../60304a7474819f214d8627676c38169e.jpg; sourceTree = "<group>"; };
+		B1195BB61E7416DE006DD4E4 /* 3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg"; path = "../3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg"; sourceTree = "<group>"; };
+		B1195BB71E7416DE006DD4E4 /* av.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = av.png; path = ../av.png; sourceTree = "<group>"; };
+		B1195BB81E7416DE006DD4E4 /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Default.jpg; path = ../Default.jpg; sourceTree = "<group>"; };
+		B1195BB91E7416DE006DD4E4 /* emptyGlass copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emptyGlass copy.png"; path = "../emptyGlass copy.png"; sourceTree = "<group>"; };
+		B1195BBA1E7416DE006DD4E4 /* fullGlass copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fullGlass copy.png"; path = "../fullGlass copy.png"; sourceTree = "<group>"; };
+		B1195BBB1E7416DE006DD4E4 /* images 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images 2.png"; path = "../images 2.png"; sourceTree = "<group>"; };
+		B1195BC41E741DAE006DD4E4 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		B1195BC51E741DAE006DD4E4 /* media.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media.png; sourceTree = "<group>"; };
+		B1195BC61E741DAE006DD4E4 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		B1195BCA1E74209D006DD4E4 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		B1195BCB1E74209D006DD4E4 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		BA6B0A6570AAF58E3B35E0B7 /* Pods-FreshTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshTask/Pods-FreshTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1195B7D1E7401E6006DD4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1195BAA1E740D62006DD4E4 /* CoreLocation.framework in Frameworks */,
+				B1195BA81E740D59006DD4E4 /* MapKit.framework in Frameworks */,
+				4E1F5EB235208C674EB4639B /* libPods-FreshTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EC13006176DF4D8A30846A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA7508C775CA419ABBABD8 /* Pods-FreshTask.debug.xcconfig */,
+				BA6B0A6570AAF58E3B35E0B7 /* Pods-FreshTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1195B771E7401E6006DD4E4 = {
+			isa = PBXGroup;
+			children = (
+				B1195B821E7401E6006DD4E4 /* FreshTask */,
+				B1195B811E7401E6006DD4E4 /* Products */,
+				B1195BA61E740D58006DD4E4 /* Frameworks */,
+				67EC13006176DF4D8A30846A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B1195B811E7401E6006DD4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1195B801E7401E6006DD4E4 /* FreshTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1195B821E7401E6006DD4E4 /* FreshTask */ = {
+			isa = PBXGroup;
+			children = (
+				B1195B861E7401E6006DD4E4 /* AppDelegate.h */,
+				B1195B871E7401E6006DD4E4 /* AppDelegate.m */,
+				B1195B8C1E7401E6006DD4E4 /* Main.storyboard */,
+				B1195BD01E7423DD006DD4E4 /* News */,
+				B1195BCF1E7423D7006DD4E4 /* Media */,
+				B1195BCE1E7423D3006DD4E4 /* Map */,
+				B1195BCD1E7423B6006DD4E4 /* Images */,
+				B1195B831E7401E6006DD4E4 /* Supporting Files */,
+			);
+			path = FreshTask;
+			sourceTree = "<group>";
+		};
+		B1195B831E7401E6006DD4E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1195B921E7401E6006DD4E4 /* Assets.xcassets */,
+				B1195B941E7401E6006DD4E4 /* LaunchScreen.storyboard */,
+				B1195B971E7401E6006DD4E4 /* Info.plist */,
+				B1195B8F1E7401E6006DD4E4 /* FreshTask.xcdatamodeld */,
+				B1195B841E7401E6006DD4E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1195BA61E740D58006DD4E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1195BA91E740D62006DD4E4 /* CoreLocation.framework */,
+				B1195BA71E740D59006DD4E4 /* MapKit.framework */,
+				A4A4BD9CF86A586B2DE5E6C8 /* libPods-FreshTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1195BCD1E7423B6006DD4E4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1195BC41E741DAE006DD4E4 /* map.png */,
+				B1195BB41E7416DE006DD4E4 /* 15_feed.jpg */,
+				B1195BB51E7416DE006DD4E4 /* 60304a7474819f214d8627676c38169e.jpg */,
+				B1195BB61E7416DE006DD4E4 /* 3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg */,
+				B1195BB71E7416DE006DD4E4 /* av.png */,
+				B1195BB81E7416DE006DD4E4 /* Default.jpg */,
+				B1195BB91E7416DE006DD4E4 /* emptyGlass copy.png */,
+				B1195BBA1E7416DE006DD4E4 /* fullGlass copy.png */,
+				B1195BBB1E7416DE006DD4E4 /* images 2.png */,
+				B1195BC51E741DAE006DD4E4 /* media.png */,
+				B1195BC61E741DAE006DD4E4 /* news.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B1195BCE1E7423D3006DD4E4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B1195BA01E7402CB006DD4E4 /* MapController.h */,
+				B1195BA11E7402CB006DD4E4 /* MapController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		B1195BCF1E7423D7006DD4E4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B1195B9D1E7402B5006DD4E4 /* PageViewController.h */,
+				B1195B9E1E7402B5006DD4E4 /* PageViewController.m */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		B1195BD01E7423DD006DD4E4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				B1195B891E7401E6006DD4E4 /* ViewController.h */,
+				B1195B8A1E7401E6006DD4E4 /* ViewController.m */,
+				B1195BA31E7404CD006DD4E4 /* CollectionViewCell.h */,
+				B1195BA41E7404CD006DD4E4 /* CollectionViewCell.m */,
+				B1195BCA1E74209D006DD4E4 /* DetailController.h */,
+				B1195BCB1E74209D006DD4E4 /* DetailController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1195B7F1E7401E6006DD4E4 /* FreshTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1195B9A1E7401E6006DD4E4 /* Build configuration list for PBXNativeTarget "FreshTask" */;
+			buildPhases = (
+				690F970631EE7536F5EB2872 /* [CP] Check Pods Manifest.lock */,
+				B1195B7C1E7401E6006DD4E4 /* Sources */,
+				B1195B7D1E7401E6006DD4E4 /* Frameworks */,
+				B1195B7E1E7401E6006DD4E4 /* Resources */,
+				3C66D107646FB6D30BA9AD33 /* [CP] Embed Pods Frameworks */,
+				69D278C297E105834EA1BCFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshTask;
+			productName = FreshTask;
+			productReference = B1195B801E7401E6006DD4E4 /* FreshTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1195B781E7401E6006DD4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Sample;
+				TargetAttributes = {
+					B1195B7F1E7401E6006DD4E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8MW9DTVFS9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B1195B7B1E7401E6006DD4E4 /* Build configuration list for PBXProject "FreshTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1195B771E7401E6006DD4E4;
+			productRefGroup = B1195B811E7401E6006DD4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1195B7F1E7401E6006DD4E4 /* FreshTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1195B7E1E7401E6006DD4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1195BC71E741DAE006DD4E4 /* map.png in Resources */,
+				B1195B961E7401E6006DD4E4 /* LaunchScreen.storyboard in Resources */,
+				B1195BC31E7416DE006DD4E4 /* images 2.png in Resources */,
+				B1195B931E7401E6006DD4E4 /* Assets.xcassets in Resources */,
+				B1195BC91E741DAE006DD4E4 /* news.png in Resources */,
+				B1195BBF1E7416DE006DD4E4 /* av.png in Resources */,
+				B1195B8E1E7401E6006DD4E4 /* Main.storyboard in Resources */,
+				B1195BBC1E7416DE006DD4E4 /* 15_feed.jpg in Resources */,
+				B1195BC21E7416DE006DD4E4 /* fullGlass copy.png in Resources */,
+				B1195BBD1E7416DE006DD4E4 /* 60304a7474819f214d8627676c38169e.jpg in Resources */,
+				B1195BBE1E7416DE006DD4E4 /* 3626372925-hot-angelina-jolie-wallpaper-by-wallpaper-hd-7-4O2-4O2-640x960-MM-78.jpg in Resources */,
+				B1195BC01E7416DE006DD4E4 /* Default.jpg in Resources */,
+				B1195BC11E7416DE006DD4E4 /* emptyGlass copy.png in Resources */,
+				B1195BC81E741DAE006DD4E4 /* media.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C66D107646FB6D30BA9AD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshTask/Pods-FreshTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690F970631EE7536F5EB2872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69D278C297E105834EA1BCFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshTask/Pods-FreshTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1195B7C1E7401E6006DD4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1195B8B1E7401E6006DD4E4 /* ViewController.m in Sources */,
+				B1195B911E7401E6006DD4E4 /* FreshTask.xcdatamodeld in Sources */,
+				B1195B881E7401E6006DD4E4 /* AppDelegate.m in Sources */,
+				B1195B9F1E7402B5006DD4E4 /* PageViewController.m in Sources */,
+				B1195BCC1E74209D006DD4E4 /* DetailController.m in Sources */,
+				B1195BA21E7402CB006DD4E4 /* MapController.m in Sources */,
+				B1195BA51E7404CD006DD4E4 /* CollectionViewCell.m in Sources */,
+				B1195B851E7401E6006DD4E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1195B8C1E7401E6006DD4E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1195B8D1E7401E6006DD4E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1195B941E7401E6006DD4E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1195B951E7401E6006DD4E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1195B981E7401E6006DD4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1195B991E7401E6006DD4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1195B9B1E7401E6006DD4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBA7508C775CA419ABBABD8 /* Pods-FreshTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MW9DTVFS9;
+				INFOPLIST_FILE = FreshTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.FreshTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1195B9C1E7401E6006DD4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6B0A6570AAF58E3B35E0B7 /* Pods-FreshTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MW9DTVFS9;
+				INFOPLIST_FILE = FreshTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.FreshTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1195B7B1E7401E6006DD4E4 /* Build configuration list for PBXProject "FreshTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1195B981E7401E6006DD4E4 /* Debug */,
+				B1195B991E7401E6006DD4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1195B9A1E7401E6006DD4E4 /* Build configuration list for PBXNativeTarget "FreshTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1195B9B1E7401E6006DD4E4 /* Debug */,
+				B1195B9C1E7401E6006DD4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1195B8F1E7401E6006DD4E4 /* FreshTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1195B901E7401E6006DD4E4 /* FreshTask.xcdatamodel */,
+			);
+			currentVersion = B1195B901E7401E6006DD4E4 /* FreshTask.xcdatamodel */;
+			path = FreshTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1195B781E7401E6006DD4E4 /* Project object */;
+}

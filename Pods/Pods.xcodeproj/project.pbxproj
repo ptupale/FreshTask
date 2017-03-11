@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0647C119FF1A172FECE7FB14532ADA3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		15A02FE744CC2D79A5B2AE33734F48FC /* ZWSlideViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6F55FD48CA3A245C0775783F27A83 /* ZWSlideViewController-dummy.m */; };
+		24B5940C957D7A2D2A94D7E2551DF51E /* Pods-FreshTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98DE3FF1CBEB1E68269D130BFA1DA17 /* Pods-FreshTask-dummy.m */; };
+		2889959D82ADB2E0FDA6BC2FA413A971 /* ZWSMenuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F7A9DEDA4C61C341719D19EF7AD87 /* ZWSMenuLabel.m */; };
+		405FD66B7F3140C15E581D0198EF5D8D /* ZWSSectionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF7A8B15501732E69F60DDFE3C331F /* ZWSSectionBar.m */; };
+		6633ABAD38B96A82FFD75A10853AF95B /* ZWSFlowMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4CF10B178B6BC7D5393E03E9914F66 /* ZWSFlowMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78CDEE2CC511C2D85146E29414AB619A /* ZWSSectionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4CE53EBF128F29588E7790EF52205E /* ZWSSectionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E49082B98DFCC2FD0C4DDCB4E7387F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		80CCC7F595874792A22A098F881CC951 /* ZWSMenuLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF191067D97A9D622DB0BA0A4A3543 /* ZWSMenuLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C391990F59F1CBB3BC15B0A624F5BA /* ZWSPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1557977AF2E5D937C4900D9C6C3DEC0A /* ZWSPagingView.m */; };
+		A477CA9A1BEF9C9FA9E5B31EE230A9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AA76A818A2D726A6FF77E3956720BFC8 /* ZWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCED816953B5826DD8A71B60DF1F7B1 /* ZWSViewController.m */; };
+		C95A7472BAC61AC81A8DC08E88540A5E /* ZWSFlowMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A965652F2F1A3ABDC59C62B5F08C07E /* ZWSFlowMenu.m */; };
+		E40AFE066B191926F14476A082236203 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBAB0E873F7F5B75049BB0F4D024B /* CHTCollectionViewWaterfallLayout.m */; };
+		E505B21D6063D8859F0AF4F9D78AEE77 /* ZWSPagingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7426F151E2F7C62FB1C0221E6B3AE0 /* ZWSPagingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C4F1E52C43EF04C61E705B931EB3C4 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644F6BB7E7324784548E01803415DC8 /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		FAF83BBEA4F9DA6381065E8A40E1F847 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FB97ADDC0FA93B5A4E5A35229CEBE912 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA6FE3CF5A71B6E77F1495E1F6EDAD6 /* ZWSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6956E3595696BBE49BF99E36DBAA75B /* ZWSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1D7B1CEF453704E843451EC720618E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D97F30A9C69CBF644A36BCC660ECBBF;
+			remoteInfo = ZWSlideViewController;
+		};
+		6A36DDD9243440447C1C8FD2EE965061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270A81A96B43FDC77205148203D5049B;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C4CF10B178B6BC7D5393E03E9914F66 /* ZWSFlowMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWSFlowMenu.h; path = Pod/Classes/ZWSFlowMenu.h; sourceTree = "<group>"; };
+		0FCF7A8B15501732E69F60DDFE3C331F /* ZWSSectionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWSSectionBar.m; path = Pod/Classes/ZWSSectionBar.m; sourceTree = "<group>"; };
+		11B84307326CE719DEF0DCCDB8B9B820 /* libCHTCollectionViewWaterfallLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCHTCollectionViewWaterfallLayout.a; path = libCHTCollectionViewWaterfallLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		123211AC92D82849EFECB15E1E489FB5 /* libPods-FreshTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FreshTask.a"; path = "libPods-FreshTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1557977AF2E5D937C4900D9C6C3DEC0A /* ZWSPagingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWSPagingView.m; path = Pod/Classes/ZWSPagingView.m; sourceTree = "<group>"; };
+		180F7A9DEDA4C61C341719D19EF7AD87 /* ZWSMenuLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWSMenuLabel.m; path = Pod/Classes/ZWSMenuLabel.m; sourceTree = "<group>"; };
+		27136656C91C1DE546605DE08BAA52C5 /* Pods-FreshTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreshTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		3644F6BB7E7324784548E01803415DC8 /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		39D59064C60B1BCAFFB08DB65CF16419 /* ZWSlideViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWSlideViewController-prefix.pch"; sourceTree = "<group>"; };
+		3A965652F2F1A3ABDC59C62B5F08C07E /* ZWSFlowMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWSFlowMenu.m; path = Pod/Classes/ZWSFlowMenu.m; sourceTree = "<group>"; };
+		41A69C3BC84AD0B26F4B71C7F2342981 /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		43A6F55FD48CA3A245C0775783F27A83 /* ZWSlideViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWSlideViewController-dummy.m"; sourceTree = "<group>"; };
+		4BCED816953B5826DD8A71B60DF1F7B1 /* ZWSViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWSViewController.m; path = Pod/Classes/ZWSViewController.m; sourceTree = "<group>"; };
+		5E7426F151E2F7C62FB1C0221E6B3AE0 /* ZWSPagingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWSPagingView.h; path = Pod/Classes/ZWSPagingView.h; sourceTree = "<group>"; };
+		607FB79EDC79AA8FD6A8610DCDD7470F /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		65FF191067D97A9D622DB0BA0A4A3543 /* ZWSMenuLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWSMenuLabel.h; path = Pod/Classes/ZWSMenuLabel.h; sourceTree = "<group>"; };
+		7A014012DEB39B8ACA6B2E6E5D5E14C2 /* libZWSlideViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZWSlideViewController.a; path = libZWSlideViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AEBAB0E873F7F5B75049BB0F4D024B /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BF661E052AF84214BB582E30DE97C61 /* Pods-FreshTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FreshTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8C76897FB8E89656F80B9FC8CED6AB0 /* Pods-FreshTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreshTask.release.xcconfig"; sourceTree = "<group>"; };
+		BE915B3580ED32BB0E2825CD0CF65B3A /* Pods-FreshTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreshTask.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4CE53EBF128F29588E7790EF52205E /* ZWSSectionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWSSectionBar.h; path = Pod/Classes/ZWSSectionBar.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF69D7DBC13296D2C3BC616C04BBA5DC /* Pods-FreshTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FreshTask-resources.sh"; sourceTree = "<group>"; };
+		D354BBF2D6F869ADAF67898E4A21B340 /* ZWSlideViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWSlideViewController.xcconfig; sourceTree = "<group>"; };
+		E43DC79B895F079831521F70B7059904 /* Pods-FreshTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FreshTask-frameworks.sh"; sourceTree = "<group>"; };
+		E98DE3FF1CBEB1E68269D130BFA1DA17 /* Pods-FreshTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FreshTask-dummy.m"; sourceTree = "<group>"; };
+		F6956E3595696BBE49BF99E36DBAA75B /* ZWSViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWSViewController.h; path = Pod/Classes/ZWSViewController.h; sourceTree = "<group>"; };
+		FB97ADDC0FA93B5A4E5A35229CEBE912 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262E2003112BDB28F86341CDC6A144C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E49082B98DFCC2FD0C4DDCB4E7387F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4B58F3B9CCF607857AE09D8E8AF9E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0647C119FF1A172FECE7FB14532ADA3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6E0256565F08102182F9B8D1F74C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A477CA9A1BEF9C9FA9E5B31EE230A9B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1386EA83542491C9AFEA9EECDD654F80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823FECC76414784F69FE9373226EC230 /* CHTCollectionViewWaterfallLayout */,
+				2B506CBD85446DAC5A1F21AF06EF0FDE /* ZWSlideViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B506CBD85446DAC5A1F21AF06EF0FDE /* ZWSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C4CF10B178B6BC7D5393E03E9914F66 /* ZWSFlowMenu.h */,
+				3A965652F2F1A3ABDC59C62B5F08C07E /* ZWSFlowMenu.m */,
+				65FF191067D97A9D622DB0BA0A4A3543 /* ZWSMenuLabel.h */,
+				180F7A9DEDA4C61C341719D19EF7AD87 /* ZWSMenuLabel.m */,
+				5E7426F151E2F7C62FB1C0221E6B3AE0 /* ZWSPagingView.h */,
+				1557977AF2E5D937C4900D9C6C3DEC0A /* ZWSPagingView.m */,
+				BF4CE53EBF128F29588E7790EF52205E /* ZWSSectionBar.h */,
+				0FCF7A8B15501732E69F60DDFE3C331F /* ZWSSectionBar.m */,
+				F6956E3595696BBE49BF99E36DBAA75B /* ZWSViewController.h */,
+				4BCED816953B5826DD8A71B60DF1F7B1 /* ZWSViewController.m */,
+				8F732BC2E2694F8E1CD6BE9D40B82706 /* Support Files */,
+			);
+			name = ZWSlideViewController;
+			path = ZWSlideViewController;
+			sourceTree = "<group>";
+		};
+		424029C07B6593A32C41642903CE648C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FB79EDC79AA8FD6A8610DCDD7470F /* CHTCollectionViewWaterfallLayout.xcconfig */,
+				3644F6BB7E7324784548E01803415DC8 /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				41A69C3BC84AD0B26F4B71C7F2342981 /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
+			sourceTree = "<group>";
+		};
+		6DAC613CB851A595F0412C5D22EB2462 /* Pods-FreshTask */ = {
+			isa = PBXGroup;
+			children = (
+				9BF661E052AF84214BB582E30DE97C61 /* Pods-FreshTask-acknowledgements.markdown */,
+				27136656C91C1DE546605DE08BAA52C5 /* Pods-FreshTask-acknowledgements.plist */,
+				E98DE3FF1CBEB1E68269D130BFA1DA17 /* Pods-FreshTask-dummy.m */,
+				E43DC79B895F079831521F70B7059904 /* Pods-FreshTask-frameworks.sh */,
+				CF69D7DBC13296D2C3BC616C04BBA5DC /* Pods-FreshTask-resources.sh */,
+				BE915B3580ED32BB0E2825CD0CF65B3A /* Pods-FreshTask.debug.xcconfig */,
+				B8C76897FB8E89656F80B9FC8CED6AB0 /* Pods-FreshTask.release.xcconfig */,
+			);
+			name = "Pods-FreshTask";
+			path = "Target Support Files/Pods-FreshTask";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1386EA83542491C9AFEA9EECDD654F80 /* Pods */,
+				B61A9F634658DD21D4321C4681D3C674 /* Products */,
+				E508101B59857D69A5069C3AC7293983 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		823FECC76414784F69FE9373226EC230 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E165EA0D516BED1C787085365F257283 /* ObjC */,
+				424029C07B6593A32C41642903CE648C /* Support Files */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		8F732BC2E2694F8E1CD6BE9D40B82706 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D354BBF2D6F869ADAF67898E4A21B340 /* ZWSlideViewController.xcconfig */,
+				43A6F55FD48CA3A245C0775783F27A83 /* ZWSlideViewController-dummy.m */,
+				39D59064C60B1BCAFFB08DB65CF16419 /* ZWSlideViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZWSlideViewController";
+			sourceTree = "<group>";
+		};
+		B61A9F634658DD21D4321C4681D3C674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B84307326CE719DEF0DCCDB8B9B820 /* libCHTCollectionViewWaterfallLayout.a */,
+				123211AC92D82849EFECB15E1E489FB5 /* libPods-FreshTask.a */,
+				7A014012DEB39B8ACA6B2E6E5D5E14C2 /* libZWSlideViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E165EA0D516BED1C787085365F257283 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				FB97ADDC0FA93B5A4E5A35229CEBE912 /* CHTCollectionViewWaterfallLayout.h */,
+				84AEBAB0E873F7F5B75049BB0F4D024B /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		E508101B59857D69A5069C3AC7293983 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAC613CB851A595F0412C5D22EB2462 /* Pods-FreshTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E3BD3A232592D087CCF6826388E335C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633ABAD38B96A82FFD75A10853AF95B /* ZWSFlowMenu.h in Headers */,
+				80CCC7F595874792A22A098F881CC951 /* ZWSMenuLabel.h in Headers */,
+				E505B21D6063D8859F0AF4F9D78AEE77 /* ZWSPagingView.h in Headers */,
+				78CDEE2CC511C2D85146E29414AB619A /* ZWSSectionBar.h in Headers */,
+				FFA6FE3CF5A71B6E77F1495E1F6EDAD6 /* ZWSViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3859BE12197EE47B5CE46C00C20128 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF83BBEA4F9DA6381065E8A40E1F847 /* CHTCollectionViewWaterfallLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		270A81A96B43FDC77205148203D5049B /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C395D6677704A795D617DD2410D914 /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */;
+			buildPhases = (
+				CD612676AC79332A1A6D20ECB34EDCF6 /* Sources */,
+				6AF6E0256565F08102182F9B8D1F74C0 /* Frameworks */,
+				BE3859BE12197EE47B5CE46C00C20128 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			productName = CHTCollectionViewWaterfallLayout;
+			productReference = 11B84307326CE719DEF0DCCDB8B9B820 /* libCHTCollectionViewWaterfallLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D97F30A9C69CBF644A36BCC660ECBBF /* ZWSlideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62718D4010D8321E5878310EC61E1AC1 /* Build configuration list for PBXNativeTarget "ZWSlideViewController" */;
+			buildPhases = (
+				E7FA36AFE696D53A62DB42F09404A3EB /* Sources */,
+				6A4B58F3B9CCF607857AE09D8E8AF9E1 /* Frameworks */,
+				6E3BD3A232592D087CCF6826388E335C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWSlideViewController;
+			productName = ZWSlideViewController;
+			productReference = 7A014012DEB39B8ACA6B2E6E5D5E14C2 /* libZWSlideViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7FA8C024471C9F51E01BAFE507D3796 /* Pods-FreshTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595DAB50DB63360FBFFD61C0A3790761 /* Build configuration list for PBXNativeTarget "Pods-FreshTask" */;
+			buildPhases = (
+				2113922A7A49945095F7F68579A294E1 /* Sources */,
+				262E2003112BDB28F86341CDC6A144C2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB0BFC0C93E356FCEF6A7F8A0CEEABE /* PBXTargetDependency */,
+				D58C98E3E75124BB79E67EF11E483FA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FreshTask";
+			productName = "Pods-FreshTask";
+			productReference = 123211AC92D82849EFECB15E1E489FB5 /* libPods-FreshTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B61A9F634658DD21D4321C4681D3C674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270A81A96B43FDC77205148203D5049B /* CHTCollectionViewWaterfallLayout */,
+				F7FA8C024471C9F51E01BAFE507D3796 /* Pods-FreshTask */,
+				4D97F30A9C69CBF644A36BCC660ECBBF /* ZWSlideViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2113922A7A49945095F7F68579A294E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B5940C957D7A2D2A94D7E2551DF51E /* Pods-FreshTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD612676AC79332A1A6D20ECB34EDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C4F1E52C43EF04C61E705B931EB3C4 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */,
+				E40AFE066B191926F14476A082236203 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA36AFE696D53A62DB42F09404A3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A7472BAC61AC81A8DC08E88540A5E /* ZWSFlowMenu.m in Sources */,
+				15A02FE744CC2D79A5B2AE33734F48FC /* ZWSlideViewController-dummy.m in Sources */,
+				2889959D82ADB2E0FDA6BC2FA413A971 /* ZWSMenuLabel.m in Sources */,
+				87C391990F59F1CBB3BC15B0A624F5BA /* ZWSPagingView.m in Sources */,
+				405FD66B7F3140C15E581D0198EF5D8D /* ZWSSectionBar.m in Sources */,
+				AA76A818A2D726A6FF77E3956720BFC8 /* ZWSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB0BFC0C93E356FCEF6A7F8A0CEEABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = 270A81A96B43FDC77205148203D5049B /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = 6A36DDD9243440447C1C8FD2EE965061 /* PBXContainerItemProxy */;
+		};
+		D58C98E3E75124BB79E67EF11E483FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZWSlideViewController;
+			target = 4D97F30A9C69CBF644A36BCC660ECBBF /* ZWSlideViewController */;
+			targetProxy = 4B1D7B1CEF453704E843451EC720618E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E82CF8E0B1A79BC2B8E2826E56C4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C76897FB8E89656F80B9FC8CED6AB0 /* Pods-FreshTask.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20980A06EDE0BD7631670917B4BB9C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607FB79EDC79AA8FD6A8610DCDD7470F /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		23D4E4A88F3EFB0F4FA9719C2E42C8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607FB79EDC79AA8FD6A8610DCDD7470F /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3ECFE44AEC11AB592B232AF23E44B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE915B3580ED32BB0E2825CD0CF65B3A /* Pods-FreshTask.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DC16AC75605E1C8E79F492F94572F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D354BBF2D6F869ADAF67898E4A21B340 /* ZWSlideViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZWSlideViewController/ZWSlideViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C592A690B2748B6F86BDF273808D72B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D354BBF2D6F869ADAF67898E4A21B340 /* ZWSlideViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZWSlideViewController/ZWSlideViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595DAB50DB63360FBFFD61C0A3790761 /* Build configuration list for PBXNativeTarget "Pods-FreshTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFE44AEC11AB592B232AF23E44B275 /* Debug */,
+				05E82CF8E0B1A79BC2B8E2826E56C4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62718D4010D8321E5878310EC61E1AC1 /* Build configuration list for PBXNativeTarget "ZWSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC16AC75605E1C8E79F492F94572F11 /* Debug */,
+				C592A690B2748B6F86BDF273808D72B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C395D6677704A795D617DD2410D914 /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20980A06EDE0BD7631670917B4BB9C32 /* Debug */,
+				23D4E4A88F3EFB0F4FA9719C2E42C8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
